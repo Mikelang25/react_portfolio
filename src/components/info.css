@@ -1,0 +1,16 @@
+.profile{
+    max-width: 100%;
+}
+
+.picture-container{
+    border:1pt solid black;
+    margin-top:20px;
+    padding:15px;
+}
+
+.about-container{
+    border:1pt solid black;
+    margin-top:20px;
+    margin-left:30px;
+    padding:15px;
+}
