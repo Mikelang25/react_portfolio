@@ -49,7 +49,8 @@ class Home extends Component {
                         <button value="info" className="nav nav-top" onClick={this.selectedTab}>Info</button>
                         <button value="portfolio" className="nav" onClick={this.selectedTab}>Portfolio</button>
                         <button value="contact" className="nav nav-bottom" onClick={this.selectedTab}>Contact Me</button><br></br>
-                        <a className="linkedin" href="https://www.linkedin.com/in/mikelang25/"><img className="img-linkedin"src="https://img.icons8.com/cute-clipart/32/000000/linkedin.png"/>LinkedIn</a>
+                        <a className="linkedin" href="https://www.linkedin.com/in/mikelang25/"><img className="img-linkedin" src="https://img.icons8.com/cute-clipart/32/000000/linkedin.png"/>LinkedIn</a><br></br><br></br>
+                        <a className="linkedin" href="https://github.com/Mikelang25"><img className="img-linkedin" src="https://img.icons8.com/cute-clipart/32/000000/repository.png"/>GitHub</a>
                     </div>
                     <div className="col-md-10">
                         {this.renderTab()}
