@@ -5,12 +5,16 @@
 .picture-container{
     border:1pt solid black;
     margin-top:20px;
-    padding:15px;
+    padding:10px;
+    background-color: black;
+    border-radius: 5px;
 }
 
 .about-container{
-    border:1pt solid black;
+    border:8pt solid black;
     margin-top:20px;
     margin-left:30px;
     padding:15px;
+    border-radius: 5px;
+    background-color: white;
 }

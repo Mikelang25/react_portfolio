@@ -23,19 +23,19 @@ class Home extends Component {
         if (this.state.tab === "info") {
             return (
                 <div className="row">
-                    <Info/>
+                    <Info />
                 </div>
             );
         } else if (this.state.tab === "portfolio") {
             return (
-                <div>
-                    <Portfolio/>
+                <div className="row">
+                    <Portfolio />
                 </div>
             );
         } else if (this.state.tab === "contact") {
             return (
-                <div>
-                    <Contact/>
+                <div className="row">
+                    <Contact />
                 </div>
             );
         }
@@ -46,18 +46,28 @@ class Home extends Component {
             <div className="wrapper">
                 <div className="row">
                     <div className="col-md-2">
+                    </div>
+                    <div className="col-md-8 text-center">
                         <button value="info" className="nav nav-top" onClick={this.selectedTab}>Info</button>
                         <button value="portfolio" className="nav" onClick={this.selectedTab}>Portfolio</button>
-                        <button value="contact" className="nav nav-bottom" onClick={this.selectedTab}>Contact Me</button><br></br>
-                        <a className="linkedin" href="https://www.linkedin.com/in/mikelang25/"><img className="img-linkedin" src="https://img.icons8.com/cute-clipart/32/000000/linkedin.png"/>LinkedIn</a><br></br><br></br>
-                        <a className="linkedin" href="https://github.com/Mikelang25"><img className="img-linkedin" src="https://img.icons8.com/cute-clipart/32/000000/repository.png"/>GitHub</a>
+                        <button value="contact" className="nav nav-bottom" onClick={this.selectedTab}>Contact Me</button>
                     </div>
+                </div>
+                <div className="row">
+                    <div className="col-md-2"></div>
                     <div className="col-md-10">
                         {this.renderTab()}
                     </div>
                 </div>
+                <div className="row">
+                    <div className="col-md-2"></div>
+                    <div className="col-md-8 text-center site-container">
+                        <a className="linkedin" href="https://www.linkedin.com/in/mikelang25/"><img className="img-linkedin" src="https://img.icons8.com/cute-clipart/32/000000/linkedin.png" />LinkedIn</a>
+                        <a className="linkedin" href="https://github.com/Mikelang25"><img className="img-linkedin" src="https://img.icons8.com/cute-clipart/32/000000/repository.png" />GitHub</a>
+                    </div>
+                </div>
                 <footer className="footer">
-                <a href="https://icons8.com/icon/118979/linkedin">Icons by Icons8</a>
+                    <a className= "icons-footer" href="https://icons8.com/icon/118979/linkedin">Icons by Icons8</a>
                 </footer>
             </div>
         );

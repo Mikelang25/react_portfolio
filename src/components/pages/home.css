@@ -13,25 +13,22 @@ body{
   color:black;
 }
 
+.site-container{
+  margin-top:120px;
+}
+
 
 .nav{
- width: 80%; 
- padding:10px;
- background-color: black;
- border:none;
- color:white;
- margin-left:10px;
+  display: inline-block;
+  padding:10px;
+  background-color: black;
+  border:none;
+  color:white;
+  width:15%;
 }
 
 .nav-top{
-  margin-top:10px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-}
-
-.nav-bottom{
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  margin-top:20px;
 }
 
 .nav:hover{
@@ -45,8 +42,11 @@ body{
     bottom: 0;
     width: 100%;
     background-color: black;
-    color: white;
     text-align: right;
-    text-decoration: none!important;
-    padding:5px;
+    padding:15px;
+}
+
+.icons-footer{
+  color: white;
+  text-decoration: none !important;
 }
